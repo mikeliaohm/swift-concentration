@@ -78,6 +78,7 @@ struct Concentration
     }
 }
 
+// extend protocol
 extension Collection {
     var oneAndOnly: Element? {
         return count == 1 ? first : nil
