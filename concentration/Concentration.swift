@@ -17,6 +17,7 @@ struct Concentration
     private var indexOfOneAndOnlyFaceUpCard: Int? {
         get {
             return cards.indices.filter { cards[$0].isFaceUp }.oneAndOnly
+            // cards.indices.filter { cards[$0].isFaceUp } return an Array
 //            var foundIndex: Int?
 //            for index in cards.indices {
 //                if cards[index].isFaceUp {

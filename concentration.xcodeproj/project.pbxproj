@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F723779F2268C63E00AD0032 /* ConcentrationThemeChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F723779E2268C63E00AD0032 /* ConcentrationThemeChooserViewController.swift */; };
 		F7280D0321CFD1D700C5F651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7280D0221CFD1D700C5F651 /* AppDelegate.swift */; };
-		F7280D0521CFD1D700C5F651 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7280D0421CFD1D700C5F651 /* ViewController.swift */; };
+		F7280D0521CFD1D700C5F651 /* ConcentrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7280D0421CFD1D700C5F651 /* ConcentrationViewController.swift */; };
 		F7280D0821CFD1D700C5F651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7280D0621CFD1D700C5F651 /* Main.storyboard */; };
 		F7280D0A21CFD1D700C5F651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7280D0921CFD1D700C5F651 /* Assets.xcassets */; };
 		F7280D0D21CFD1D700C5F651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7280D0B21CFD1D700C5F651 /* LaunchScreen.storyboard */; };
@@ -36,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F723779E2268C63E00AD0032 /* ConcentrationThemeChooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationThemeChooserViewController.swift; sourceTree = "<group>"; };
 		F7280CFF21CFD1D700C5F651 /* concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7280D0221CFD1D700C5F651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F7280D0421CFD1D700C5F651 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7280D0421CFD1D700C5F651 /* ConcentrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationViewController.swift; sourceTree = "<group>"; };
 		F7280D0721CFD1D700C5F651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7280D0921CFD1D700C5F651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7280D0C21CFD1D700C5F651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +103,8 @@
 		F7280D0121CFD1D700C5F651 /* concentration */ = {
 			isa = PBXGroup;
 			children = (
-				F7280D0421CFD1D700C5F651 /* ViewController.swift */,
+				F723779E2268C63E00AD0032 /* ConcentrationThemeChooserViewController.swift */,
+				F7280D0421CFD1D700C5F651 /* ConcentrationViewController.swift */,
 				F7280D0621CFD1D700C5F651 /* Main.storyboard */,
 				F7EF44B621D7D8F00097B3F2 /* Concentration.swift */,
 				F7EF44B821D7D9C70097B3F2 /* Card.swift */,
@@ -207,13 +210,16 @@
 				TargetAttributes = {
 					F7280CFE21CFD1D700C5F651 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					F7280D1221CFD1D800C5F651 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = F7280CFE21CFD1D700C5F651;
 					};
 					F7280D1D21CFD1D800C5F651 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = F7280CFE21CFD1D700C5F651;
 					};
 				};
@@ -270,7 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7280D0521CFD1D700C5F651 /* ViewController.swift in Sources */,
+				F723779F2268C63E00AD0032 /* ConcentrationThemeChooserViewController.swift in Sources */,
+				F7280D0521CFD1D700C5F651 /* ConcentrationViewController.swift in Sources */,
 				F7280D0321CFD1D700C5F651 /* AppDelegate.swift in Sources */,
 				F7EF44B721D7D8F00097B3F2 /* Concentration.swift in Sources */,
 				F7EF44B921D7D9C70097B3F2 /* Card.swift in Sources */,
@@ -457,7 +464,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-langyee.com.tw.concentration";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -475,7 +482,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-langyee.com.tw.concentration";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -495,7 +502,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Langyee.concentrationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/concentration.app/concentration";
 			};
@@ -516,7 +523,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Langyee.concentrationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/concentration.app/concentration";
 			};
@@ -536,7 +543,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Langyee.concentrationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = concentration;
 			};
@@ -556,7 +563,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Langyee.concentrationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = concentration;
 			};
